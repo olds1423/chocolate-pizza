@@ -4,12 +4,20 @@
     <meta charset="utf-8">
     <title> Chocolate Pizza</title>
     <link rel="stylesheet" href="style.css">
+    <!--font section -->
+    <link href='https://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Chathura' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Chathura|Oswald:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Patrick+Hand' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+
   </head>
   <body>
     <header>
       <div>
         <img src="pizza/logo.png" alt="logo">
-        <p class="delicious">Delicious<br><text class="blog">THE BEST FOOD BLOG ON THE WEB.</p> 
+        <p class="delicious">Delicious<br><text class="blog">THE BEST FOOD BLOG ON THE WEB.</p>
       </div>
 
       <div>
@@ -26,7 +34,7 @@
     <section class='gradient'></section>
     <main>
       <h1>Chocolate Pizza</h1>
-      <p>POSTED ON 15 DEC 2013 / DESSERTS<img src="pizza/print-icon.png">PRINT</p>
+      <p class='date'>POSTED ON 15 DEC 2013 / DESSERTS<img src="pizza/print-icon.png">PRINT</p>
       <img src="pizza/choco-pizza.png" alt="main image of a delicious chocolate pizza">
       <p class="p1">Noooooo! I saw you with those two "ladies of the evening" at Elzars. Explain that. I videotape every customer that comes in here, so that I may blackmail them later. For example, if you killed your grandfather, you'd cease to exist!</p>
       <p class="p2">It doesn't look so shiny to me. There, now he's trapped in a book I wrote: a crummy world of plot holes and spelling errors! Noooooo! Yeah. Give a little credit to our public schools.</p>
@@ -34,23 +42,20 @@
       <img src="pizza/list-bg.png" alt"background image for the list" >
 
       <div>
-        <form action="" id="left list">
-          <input type="checkbox" name="left list" value "milk">1 1/2 cups milk<br>
-          <input type="checkbox" name="left list" value "mascrapones">1/2 cup mascrapone<br>
-          <input type="checkbox" name="left list" value "salt">1/2 tsp pink salt<br>
-          <input type="checkbox" name="left list" value "figs">1lb Black Mission Figs<br>
-          <input type="checkbox" name="left list" value "sugar">1/2 cup brown sugar<br>
-          <input type="checkbox" name="left list" value "water">2-4 tbsp water<br>
-      </div>
-
-      <div>
-        <form action="" id="right list">
-          <input type="checkbox" name="right list" value "cream">1 1/2 cups heavy cream<br>
-          <input type="checkbox" name="right list" value "granulated sugar" checked>1/3 granulated sugar<br>
-          <input type="checkbox" name="right list" value "salt" checked>2 egg yolks<br>
-          <input type="checkbox" name="right list" value "lemon juice">1 lemon juice<br>
-          <input type="checkbox" name="right list" value "butter">2 tbsp butter<br>
-          <input type="checkbox" name="right list" value "honey roasted pecans">1 cup honey roasted peacans, roughly chopped<br>
+        <ul>
+          <li> <input type="checkbox" name="list" class="strikethrough" value "milk"><label class='strike'>1 1/2 cups milk</label><br> </li>
+          <li><input type="checkbox" name="list" class="strikethrough" value "mascrapones"><label class='strike'>1/2 cup marscrapone</label><br></li>
+          <li><input type="checkbox" name="list" class="strikethrough" value "salt"><label class='strike'>1/2 tsp pink salt</label><br></li>
+          <li><input type="checkbox" name="list" class="strikethrough" value "figs"><label class='strike'>1lb Black Mission Figs</label><br></li>
+          <li><input type="checkbox" name="list" class="strikethrough" value "sugar"><label class='strike'>1/2 cup brown sugar</label><br></li>
+          <li><input type="checkbox" name="list" class="strikethrough" value "water"><label class='strike'>2-4 tbsp water</label><br></li>
+          <li><input type="checkbox" name="list" class="strikethrough" value "cream"><label class='strike'>1 1/2 cups heavy cream</label><br></li>
+          <li><input type="checkbox" name="list" class="strikethrough" value "granulated sugar" checked><label class='strike'>1/3 granulated sugar</label><br></li>
+          <li><input type="checkbox" name="list" class="strikethrough" value "salt" checked><label class='strike'>2 egg yolks</label><br></li>
+          <li><input type="checkbox" name="list" class="strikethrough" value "lemon juice"><label class='strike'>1 lemon juice</label><br></li>
+          <li><input type="checkbox" name="list" class="strikethrough" value "butter"><label class='strike'>2 tbsp butter</label><br></li>
+          <li><input type="checkbox" name="list" class="strikethrough" value "honey roasted pecans"><label class='strike'>1 cup honey roasted pecans, roughly chopped</label><br></li>
+        </ul>
       </div>
       <section class='gradient'></section>
     </main>
