@@ -25,6 +25,10 @@ header {
 
 section {
   display: flex;
+  width: 70%;
+  margin-left: 15px;
+  margin-top: 0px;
+  padding: 0px;
 }
 
 
@@ -110,6 +114,10 @@ strong {
   text-indent: 30px;
 }
 
+#p3 {
+  margin-top: 0;
+}
+
 .checkList {
 
 }
@@ -119,6 +127,7 @@ strong {
 }
 #creditImg {
   display: flex;
+  height: 100px;
 }
 
 #bList {
@@ -135,4 +144,17 @@ strong {
 
 #pint {
   margin-right: 8px;
+}
+
+#hrThing {
+  display: block;
+}
+
+#sp {
+  height: 50px;
+}
+
+#van {
+  font-weight: bold;
+  font-size: 20px;
 }
