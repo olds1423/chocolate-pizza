@@ -1,6 +1,138 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-right: 18.5%;
+  margin-left: 18.5%;
+
+}
+
+main {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+}
+
+section {
+  display: flex;
+}
+
+
+h1 {
+  padding: 0;
+  margin: 0;
+  margin-top: 45px;
+  font-family: Oswald;
+  font-size: 41px;
+
+}
+
+h3 {
+  display: block;
+}
+
+ul {
+  font-family: Patrick Hand;
+  font-size: 22px;
+  columns: 2;
+  list-style-type: none;
+}
+
+button {
+  display: flex;
+  justify-content: flex-end;
+  font-family: News Cycle;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+strong {
+  margin-bottom: 20px;
+}
+.mainLogo {
+  display: block;
+  margin: auto;
+}
+
+.strikethrough:checked + .strike {
+ text-decoration: line-through;
+}
+
 .gradient {
   background-image: repeating-linear-gradient(45deg, transparent, transparent 2px, grey 2px, grey 2.828px);
   background-size: 4px 4px;
   height: 15px;
   width: 100%;
+}
+
+.top {
+  display: flex;
+}
+
+.delicious {
+  display: inline;
+  font-family: Yellowtail;
+  font-size: 22px;
+  margin: 0;
+}
+
+.blog {
+  display: inline;
+  font-family: Chathura;
+  margin: 0;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto Condensed;
+  font-size: 13px;
+  color: grey;
+  margin-bottom: 25px;
+}
+
+.p2 {
+  color: grey;
+  text-indent: 30px;
+}
+
+.checkList {
+
+}
+
+#block1 {
+  display: block;
+}
+#creditImg {
+  display: flex;
+}
+
+#bList {
+  background: url("pizza/list-bg.png");
+  height: 305px;
+  width: 100%;
+  margin-bottom: 25px;
+
+}
+
+#mCake {
+  width: 100%;
+}
+
+#pint {
+  margin-right: 8px;
 }
