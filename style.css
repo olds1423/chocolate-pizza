@@ -7,8 +7,8 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 0px;
-  margin-right: 18.5%;
-  margin-left: 18.5%;
+  margin-right: 7%;
+  margin-left: 7%;
 
 }
 
@@ -20,7 +20,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 120px;
+  height: 110px;
+  padding: 0px;
 }
 
 section {
@@ -50,12 +51,24 @@ ul {
   font-size: 22px;
   columns: 2;
   list-style-type: none;
+  color: #6B6B6B;
+  line-height: 31px;
+  margin-top: 36px;
+  background-color: transparent;
 }
 
 button {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   font-family: News Cycle;
+  font-size: 16px;
+  color: white;
+  height: 45px;
+  width: 200px;
+  background-color: rgba(189, 63, 25, 0.8);
+  margin-top: 15px;
+  margin-left: 35px;
+  border-style: none;
 }
 
 footer {
@@ -65,6 +78,14 @@ footer {
 strong {
   margin-bottom: 20px;
 }
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 50%;
+  background-color: #E6E6E6;
+}
+
 .mainLogo {
   display: block;
   margin: auto;
@@ -79,23 +100,25 @@ strong {
   background-size: 4px 4px;
   height: 15px;
   width: 100%;
+  margin-left: 0px;
 }
 
 .top {
   display: flex;
+  align-items: center;
 }
 
 .delicious {
-  display: inline;
   font-family: Yellowtail;
-  font-size: 22px;
-  margin: 0;
+  font-size: 42px;
+  margin-top: 15px;
+  align-items: flex-start;
 }
 
 .blog {
-  display: inline;
   font-family: Chathura;
-  margin: 0;
+  font-size: 20px;
+  margin-left: 4px;
 }
 
 .date {
@@ -116,10 +139,12 @@ strong {
 
 #p3 {
   margin-top: 0;
+  color: #5E5E5E;
+  line-height: 12px;
 }
 
-.checkList {
-
+#break {
+  margin-top: 0px;
 }
 
 #block1 {
@@ -130,12 +155,22 @@ strong {
   height: 100px;
 }
 
+#headerGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#mainLogo {
+  height: 45px;
+  width: 42px;
+}
+
 #bList {
   background: url("pizza/list-bg.png");
   height: 305px;
   width: 100%;
   margin-bottom: 25px;
-
+  margin-left: 0px;
 }
 
 #mCake {
@@ -146,10 +181,6 @@ strong {
   margin-right: 8px;
 }
 
-#hrThing {
-  display: block;
-}
-
 #sp {
   height: 50px;
 }
@@ -157,4 +188,41 @@ strong {
 #van {
   font-weight: bold;
   font-size: 20px;
+  color: black;
+}
+
+#copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  color: #BDBDBD;
+  font-size: 12px;
+}
+
+#para {
+  text-align: center;
+}
+
+#title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 5px;
+  align-items: center;
+  height: 80px;
+  line-height: 15px;
+}
+
+#hrThing {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#sLogo {
+  padding: 5px;
+}
+
+#enthusiast {
+  line-height: 24px;
 }
